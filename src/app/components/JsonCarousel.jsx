@@ -6,30 +6,66 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, ExternalLink } from "lucide-react";
 import Image from "next/image";
 
+const normalizeProductData = (item) => {
+  if (!item || !item.objects || !item.objects[0]) return null;
+  
+  const product = item.objects[0];
+  const validImages = product.images?.filter(img => {
+    const url = img.url;
+    return url && !url.includes('akam') && !url.includes('pixel');
+  }) || [];
+  return {
+    title: product.title || "Unknown Product",
+    image_src: validImages.length > 0 
+    ? validImages[0].url 
+    : "/placeholder.png",
+    offerPrice: product.offerPrice || 
+                product.offerPriceDetails?.text || 
+                product.specs?.january_7_2020 || 
+                "Price not available",
+    availability: product.availability || false,
+    category: product.category || product.categories?.[0]?.name || "Uncategorized",
+    text: product.text || "No description available",
+    pageUrl: product.pageUrl || "#",
+    brand: product.brand || product.specs?.brand || 
+           (product.title?.includes("Sennheiser") ? "Sennheiser" : "Unknown Brand"),
+    specs: product.specs || {},
+    additional_details: {
+      weight: product.specs?.weight || "N/A",
+      model: product.specs?.["238g"] || "N/A",
+      release_date: product.specs?.product_release_date || "N/A",
+    }
+  };
+};
+
 export function JsonCarousel({ jsonData }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+  const normalizedData = jsonData
+    .map(normalizeProductData)
+    .filter(item => item !== null);
 
   const nextCard = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % jsonData.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % normalizedData.length);
   };
 
   const prevCard = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + jsonData.length) % jsonData.length
+      (prevIndex) => (prevIndex - 1 + normalizedData.length) % normalizedData.length
     );
   };
 
-  if (jsonData.length === 0) {
+  if (normalizedData.length === 0) {
     return (
       <Card className="w-full max-w-md mx-auto">
         <CardContent className="p-6">
-          <p className="text-center text-gray-500">Loading product data...</p>
+          <p className="text-center text-gray-500">No product data available</p>
         </CardContent>
       </Card>
     );
   }
 
-  const currentItem = jsonData[currentIndex];
+  const currentItem = normalizedData[currentIndex];
 
   return (
     <div className="relative w-full max-w-md mx-auto">
@@ -38,19 +74,26 @@ export function JsonCarousel({ jsonData }) {
           <CardTitle className="text-xl">{currentItem.title}</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          {currentItem.image_src ? (
-            <div className="w-full flex justify-center">
-              <Image
-                src={currentItem.image_src}
-                alt={currentItem.title || "Product Image"}
-                width={200} // Set an appropriate width
-                height={200} // Set an appropriate height
-                className="rounded-md object-contain"
-              />
-            </div>
-          ) : (
-            <p className="text-center text-gray-500">No Image Available</p>
-          )}
+          <div className="w-full flex justify-center">
+            {currentItem.image_src ? (
+             <div className="relative w-[200px] h-[200px]">
+             <Image
+               src={currentItem.image_src}
+               alt={currentItem.title || "Product Image"}
+               fill
+               className="rounded-md object-contain"
+               onError={(e) => {
+                 console.log("Image failed to load:", e.target.src);
+                 e.target.src = "/placeholder.png";
+               }}
+               priority={true}  // Add this to prioritize loading
+             />
+           </div>
+            ) : (
+              <p className="text-center text-gray-500">No Image Available</p>
+            )}
+          </div>
+
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p className="text-sm text-gray-500">Price</p>
@@ -75,10 +118,25 @@ export function JsonCarousel({ jsonData }) {
               </p>
             </div>
           </div>
+
+          {Object.entries(currentItem.additional_details).some(([_, value]) => value !== "N/A") && (
+            <div className="grid grid-cols-2 gap-4">
+              {Object.entries(currentItem.additional_details).map(([key, value]) => 
+                value !== "N/A" ? (
+                  <div key={key}>
+                    <p className="text-sm text-gray-500">{key.replace(/_/g, ' ').charAt(0).toUpperCase() + key.slice(1)}</p>
+                    <p className="font-semibold">{value}</p>
+                  </div>
+                ) : null
+              )}
+            </div>
+          )}
+
           <div className="pt-4">
             <p className="text-sm text-gray-500">Description</p>
             <p className="text-sm mt-1">{currentItem.text}</p>
           </div>
+
           <a
             href={currentItem.pageUrl}
             target="_blank"
@@ -107,7 +165,7 @@ export function JsonCarousel({ jsonData }) {
       </Button>
 
       <div className="absolute -bottom-6 left-0 right-0 flex justify-center space-x-2">
-        {jsonData.map((_, index) => (
+        {normalizedData.map((_, index) => (
           <button
             key={index}
             className={`w-2 h-2 rounded-full transition-colors ${

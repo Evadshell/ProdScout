@@ -1,75 +1,219 @@
 {
   "request": {
-    "pageUrl": "https://electronics.sony.com/c/headband",
+    "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
     "api": "product",
-    "version": 3,
-    "resolvedPageUrl": "https://electronics.sony.com/audio/headphones/c/headband"
+    "version": 3
   },
   "objects": [
     {
       "images": [
         {
-          "xpath": "/html[1]/body[1]/noscript[2]/img[1]",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/a[1]/img[1]",
           "naturalHeight": 0,
-          "diffbotUri": "image|3|-1738135930",
-          "url": "https://electronics.sony.com/akam/13/pixel_251fd995?a=dD04OGNhYWQ4YjFhZTI4NzA5NGM3MDFkODc5ZDQ0MTJmZDcwYjc3ZjBjJmpzPW9mZg==",
+          "width": 604,
+          "diffbotUri": "image|3|-1378128960",
+          "url": "https://tpucdn.com/gpu-specs/images/c/2877-front.small.jpg",
           "naturalWidth": 0,
-          "primary": true
+          "primary": true,
+          "height": 270
+        },
+        {
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/a[2]/img[1]",
+          "naturalHeight": 0,
+          "width": 200,
+          "diffbotUri": "image|3|-583863172",
+          "url": "https://tpucdn.com/gpu-specs/images/g/798-gp102-350-k1-a1.small.jpg",
+          "naturalWidth": 0,
+          "height": 200
         }
       ],
-      "offerPrice": "$399.99",
-      "diffbotUri": "product|3|1470234114",
+      "offerPrice": "699 US",
+      "productId": "1030",
+      "diffbotUri": "product|3|1525537418",
+      "mpn": "1030",
+      "discussion": {
+        "numPages": 1,
+        "confidence": 0.08479200498317094,
+        "diffbotUri": "discussion|3|1334903863",
+        "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+        "numPosts": 10,
+        "type": "discussion",
+        "title": "NVIDIA GeForce GTX 1080 Ti",
+        "posts": [
+          {
+            "date": "Sat, 01 Feb 2025 23:02:52 GMT",
+            "humanLanguage": "en",
+            "author": "mclaren85",
+            "diffbotUri": "post|3|395776856",
+            "html": "<p><a href=\"/forums/threads/is-dlss-draw-more-power.331948/unread\">Is DLSS draw more power?</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 0,
+            "text": "Is DLSS draw more power?",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:57:41 GMT",
+            "humanLanguage": "en",
+            "author": "oxrufiioxo",
+            "diffbotUri": "post|3|-1326775281",
+            "html": "<li>  14:57 by oxrufiioxo  <a href=\"/forums/threads/will-you-buy-a-rtx-5090.331295/unread\">Will you buy a RTX 5090?</a> (351) </li>\n<li>  14:57 by Gunbound  <a href=\"/forums/threads/youtube-channel.331943/unread\">Youtube Channel</a> (11) </li>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 1,
+            "text": "Will you buy a RTX 5090? (351)",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:57:09 GMT",
+            "humanLanguage": "en",
+            "author": "Gunbound",
+            "diffbotUri": "post|3|-932407311",
+            "html": "<p><a href=\"/forums/threads/youtube-channel.331943/unread\">Youtube Channel</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 2,
+            "text": "Youtube Channel",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:53:53 GMT",
+            "humanLanguage": "ca",
+            "author": "T4C Fantasy",
+            "diffbotUri": "post|3|1746758668",
+            "html": "<li>  14:53 by T4C Fantasy  <a href=\"/forums/threads/tpus-gpu-database-portal-updates.171000/unread\">TPU's GPU Database Portal &amp; Updates</a> (373) </li>\n<li>  14:51 by unclewebb  <a href=\"/forums/threads/some-questions.298756/unread\">Some questions</a> (9) </li>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 3,
+            "text": "TPU's GPU Database Portal & Updates (373)",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:51:13 GMT",
+            "humanLanguage": "fr",
+            "author": "unclewebb",
+            "diffbotUri": "post|3|-154275780",
+            "html": "<p><a href=\"/forums/threads/some-questions.298756/unread\">Some questions</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 4,
+            "text": "Some questions",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:42:49 GMT",
+            "humanLanguage": "en",
+            "author": "Assimilator",
+            "diffbotUri": "post|3|-800514040",
+            "html": "<li>  14:42 by Assimilator  <a href=\"/forums/threads/opinions-on-ai.314259/unread\">Opinions on AI</a> (410) </li>\n<li>  14:26 by lexluthermiester  <a href=\"/forums/threads/rtx5000-series-owners-club.331946/unread\">RTX5000 Series Owners Club</a> (0) </li>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 5,
+            "text": "Opinions on AI (410)",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:26:03 GMT",
+            "humanLanguage": "af",
+            "author": "lexluthermiester",
+            "diffbotUri": "post|3|1097763783",
+            "html": "<p><a href=\"/forums/threads/rtx5000-series-owners-club.331946/unread\">RTX5000 Series Owners Club</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 6,
+            "text": "RTX5000 Series Owners Club",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 22:00:33 GMT",
+            "humanLanguage": "en",
+            "author": "leonavis",
+            "diffbotUri": "post|3|88360429",
+            "html": "<p><a href=\"/forums/threads/can-i-still-use-intel-xmp-profile-if-ram-in-bios-only-shows-expo.331945/unread\">Can I still use Intel XMP profile if ram in bios only shows EXPO</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 7,
+            "text": "Can I still use Intel XMP profile if ram in bios only shows EXPO",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 21:56:17 GMT",
+            "humanLanguage": "en",
+            "author": "Bill_Bright",
+            "diffbotUri": "post|3|1928349951",
+            "html": "<p><a href=\"/forums/threads/qvl-myth-legend-marketing-advertising-what-is-your-take.331938/unread\">QVL - Myth, Legend, Marketing/Advertising, what is your take?</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 8,
+            "text": "QVL - Myth, Legend, Marketing/Advertising, what is your take?",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 01 Feb 2025 21:56:02 GMT",
+            "humanLanguage": "en",
+            "author": "Toothless",
+            "diffbotUri": "post|3|-553367464",
+            "html": "<p><a href=\"/forums/threads/tpus-rosetta-milestones-and-daily-pie-thread.266229/unread\">TPU's Rosetta Milestones and Daily Pie Thread</a></p>",
+            "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+            "id": 9,
+            "text": "TPU's Rosetta Milestones and Daily Pie Thread",
+            "type": "post"
+          }
+        ],
+        "participants": 10,
+        "rssUrl": "https://www.techpowerup.com/rss/news"
+      },
       "availability": true,
       "type": "product",
-      "title": "WH-1000XM5 Wireless Industry Leading Noise Canceling Headphones | Black",
+      "title": "NVIDIA GeForce GTX 1080 Ti",
       "offerPriceDetails": {
-        "symbol": "$",
-        "amount": 399.99,
-        "text": "$399.99"
+        "amount": 699,
+        "text": "699 US"
+      },
+      "specs": {
+        "tmus": "224",
+        "cores": "3584",
+        "bus_width": "352 bit",
+        "rops": "88",
+        "memory_type": "GDDR5X",
+        "memory_size": "11 GB",
+        "graphics_processor": "GP102"
+      },
+      "normalizedSpecs": {
+        "ramSize": [
+          {
+            "unit": "kilobyte",
+            "cleanLiteral": "11.0 GB",
+            "value": 11534336.0
+          }
+        ]
       },
       "humanLanguage": "en",
-      "pageUrl": "https://electronics.sony.com/c/headband",
-      "text": "Discover a wide variety of over-the-ear headphones including wireless & wired headband styles. Noise canceling, Bluetooth, & more.",
+      "pageUrl": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877",
+      "text": "NVIDIA GP102, 1582 MHz, 3584 Cores, 224 TMUs, 88 ROPs, 11264 MB GDDR5X, 1376 MHz, 352 bit",
       "categories": [
-        {
-          "level": 5,
-          "isPrimary": true,
-          "confidence": 0.985,
-          "name": "Headphones",
-          "id": 543626
-        },
-        {
-          "level": 4,
-          "isPrimary": true,
-          "confidence": 0.985,
-          "name": "Headphones & Headsets",
-          "id": 505771
-        },
         {
           "level": 3,
           "isPrimary": true,
-          "confidence": 0.985,
-          "name": "Audio Components",
-          "id": 2165
+          "confidence": 0.827,
+          "name": "Barebone Computers",
+          "id": 5254
         },
         {
           "level": 2,
           "isPrimary": true,
-          "confidence": 0.985,
-          "name": "Audio",
-          "id": 223
+          "confidence": 0.827,
+          "name": "Computers",
+          "id": 278
         },
         {
           "level": 1,
           "isPrimary": true,
-          "confidence": 0.985,
+          "confidence": 0.827,
           "name": "Electronics",
           "id": 222
+        },
+        {
+          "level": 2,
+          "isPrimary": false,
+          "confidence": 0.566,
+          "name": "Networking",
+          "id": 342
         }
       ],
-      "category": "Electronics",
-      "brand": "Sony",
-      "resolvedPageUrl": "https://electronics.sony.com/audio/headphones/c/headband"
+      "sku": "GP102",
+      "category": "Electronics"
     }
   ]
 }
