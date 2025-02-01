@@ -1,0 +1,298 @@
+{
+  "request": {
+    "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+    "api": "product",
+    "version": 3
+  },
+  "objects": [
+    {
+      "offerPrice": "$19.99",
+      "productId": "MDRZX110/WHI",
+      "diffbotUri": "product|3|-375808951",
+      "mpn": "MDRZX110/WHI",
+      "discussion": {
+        "numPages": 1,
+        "confidence": 0.30759642092343187,
+        "diffbotUri": "discussion|3|-740487456",
+        "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+        "numPosts": 11,
+        "type": "discussion",
+        "title": "Sony Headphones",
+        "posts": [
+          {
+            "date": "Thu, 04 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 83,
+                "width": 201,
+                "diffbotUri": "image|3|1914959972",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538256_sd.jpg;maxHeight=83;maxWidth=300;format=webp",
+                "naturalWidth": 201,
+                "height": 83
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-806345565",
+            "html": "<figure><a href=\"/site/sony-wf-c700n-truly-wireless-noise-canceling-in-ear-headphones-black/6538256.p?skuId=6538256\"><img alt=\"Sony - WF-C700N Truly Wireless Noise Canceling In-Ear Headphones - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538256_sd.jpg;maxHeight=83;maxWidth=300;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538256_sd.jpg;maxHeight=166;maxWidth=600;format=webp 2x\"></img></a></figure>\n<p>$90.00Your price for this item is $90.00</p>\n<p>Comp. Value: $119.99</p>\n<p>The comparable value price is $119.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 0,
+            "text": "$90.00\nYour price for this item is $90.00\n\nComp. Value: $119.99\nThe comparable value price is $119.99",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 06 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 132,
+                "diffbotUri": "image|3|-79583328",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576179cv11d.jpg;maxHeight=200;maxWidth=199;format=webp",
+                "naturalWidth": 132,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-741084790",
+            "html": "<figure><img alt=\"Sony - ULT WEAR Wireless Noise Canceling Headphones - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576179cv11d.jpg;maxHeight=200;maxWidth=199;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576179cv11d.jpg;maxHeight=400;maxWidth=398;format=webp 2x\"></img></figure>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 1,
+            "type": "post"
+          },
+          {
+            "date": "Wed, 03 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 93,
+                "width": 200,
+                "diffbotUri": "image|3|841076479",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546812_sd.jpg;maxHeight=93;maxWidth=300;format=webp",
+                "naturalWidth": 200,
+                "height": 93
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-1410748960",
+            "html": "<figure><a href=\"/site/sony-wf1000xm5-true-wireless-noise-cancelling-earbuds-black/6546812.p?skuId=6546812\"><img alt=\"Sony - WF1000XM5 True Wireless Noise Cancelling Earbuds - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546812_sd.jpg;maxHeight=93;maxWidth=300;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546812_sd.jpg;maxHeight=186;maxWidth=600;format=webp 2x\"></img></a></figure>\n<p>$299.99Your price for this item is $299.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 2,
+            "text": "$299.99\nYour price for this item is $299.99",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 06 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 148,
+                "diffbotUri": "image|3|-323811654",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533160cv12d.jpg;maxHeight=200;maxWidth=222;format=webp",
+                "naturalWidth": 148,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "authorUrl": "https://www.bestbuy.com/site/sony-whch720n-wireless-noise-canceling-headphones-blue/6533160.p?skuId=6533160",
+            "diffbotUri": "post|3|1329654454",
+            "html": "<figure><a href=\"/site/sony-whch720n-wireless-noise-canceling-headphones-blue/6533160.p?skuId=6533160\"><img alt=\"Sony - WHCH720N Wireless Noise Canceling Headphones - Blue - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533160cv12d.jpg;maxHeight=200;maxWidth=222;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533160cv12d.jpg;maxHeight=400;maxWidth=444;format=webp 2x\"></img></a></figure>\n<p>$149.99Your price for this item is $149.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 3,
+            "text": "$149.99\nYour price for this item is $149.99",
+            "type": "post"
+          },
+          {
+            "date": "Sun, 07 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 130,
+                "diffbotUri": "image|3|28112485",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=200;maxWidth=195;format=webp",
+                "naturalWidth": 130,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|142491993",
+            "html": "<figure><a href=\"/site/sony-wh1000xm5-wireless-noise-canceling-over-the-ear-headphones-black/6505727.p?skuId=6505727\"><img alt=\"Sony - WH1000XM5 Wireless Noise-Canceling Over-the-Ear Headphones - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=200;maxWidth=195;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=400;maxWidth=390;format=webp 2x\"></img></a></figure>\n<h4><a href=\"/site/sony-wh1000xm5-wireless-noise-canceling-over-the-ear-headphones-black/6505727.p?skuId=6505727\">Sony - WH1000XM5 Wireless Noise-Canceling Over-the-Ear Headphones - Black</a></h4>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 4,
+            "text": "Sony - WH1000XM5 Wireless Noise-Canceling Over-the-Ear Headphones - Black",
+            "type": "post"
+          },
+          {
+            "date": "Sat, 06 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 129,
+                "diffbotUri": "image|3|-1669871915",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533161cv12d.jpg;maxHeight=200;maxWidth=194;format=webp",
+                "naturalWidth": 129,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|1050257520",
+            "html": "<figure><a href=\"/site/sony-wh-ch520-wireless-headphone-with-microphone-black/6533161.p?skuId=6533161\"><img alt=\"Sony - WH-CH520 Wireless Headphone with Microphone - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533161cv12d.jpg;maxHeight=200;maxWidth=194;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533161cv12d.jpg;maxHeight=400;maxWidth=388;format=webp 2x\"></img></a></figure>\n<h4><a href=\"/site/sony-wh-ch520-wireless-headphone-with-microphone-black/6533161.p?skuId=6533161\">Sony - WH-CH520 Wireless Headphone with Microphone - Black</a></h4>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 5,
+            "text": "Sony - WH-CH520 Wireless Headphone with Microphone - Black",
+            "type": "post"
+          },
+          {
+            "date": "Sun, 07 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 134,
+                "diffbotUri": "image|3|-696263516",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408356_rd.jpg;maxHeight=200;maxWidth=202;format=webp",
+                "naturalWidth": 134,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-701108804",
+            "html": "<figure><a href=\"/site/sony-wh1000xm4-wireless-noise-cancelling-over-the-ear-headphones-black/6408356.p?skuId=6408356\"><img alt=\"Sony - WH1000XM4 Wireless Noise-Cancelling Over-the-Ear Headphones - Black - Angle_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408356_rd.jpg;maxHeight=200;maxWidth=202;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408356_rd.jpg;maxHeight=400;maxWidth=404;format=webp 2x\"></img></a></figure>\n<h4><a href=\"/site/sony-wh1000xm4-wireless-noise-cancelling-over-the-ear-headphones-black/6408356.p?skuId=6408356\">Sony - WH1000XM4 Wireless Noise-Cancelling Over-the-Ear Headphones - Black</a></h4>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 6,
+            "text": "Sony - WH1000XM4 Wireless Noise-Cancelling Over-the-Ear Headphones - Black",
+            "type": "post"
+          },
+          {
+            "date": "Wed, 03 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 200,
+                "width": 108,
+                "diffbotUri": "image|3|750828901",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8636/8636734_sa.jpg;maxHeight=200;maxWidth=162;format=webp",
+                "naturalWidth": 108,
+                "height": 200
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "MDRZX110NC",
+            "diffbotUri": "post|3|321402606",
+            "html": "<figure><a href=\"/site/sony-noise-canceling-wired-on-ear-headphones-black/8636734.p?skuId=8636734\"><img alt=\"Sony - Noise-Canceling Wired On-Ear Headphones - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8636/8636734_sa.jpg;maxHeight=200;maxWidth=162;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8636/8636734_sa.jpg;maxHeight=400;maxWidth=324;format=webp 2x\"></img></a></figure>\n<p>$49.99Your price for this item is $49.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 7,
+            "text": "$49.99\nYour price for this item is $49.99",
+            "type": "post"
+          },
+          {
+            "date": "Tue, 02 Apr 2024 00:00:00 GMT",
+            "images": [
+              {
+                "xpath": "/html[1]/body[1]/div[5]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/div[1]/div[4]/ol[1]/li[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                "naturalHeight": 82,
+                "width": 200,
+                "diffbotUri": "image|3|-646933954",
+                "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505725_sd.jpg;maxHeight=82;maxWidth=300;format=webp",
+                "naturalWidth": 200,
+                "height": 82
+              }
+            ],
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-1931119852",
+            "html": "<figure><a href=\"/site/sony-linkbuds-s-true-wireless-noise-canceling-earbuds-black/6505725.p?skuId=6505725\"><img alt=\"Sony - LinkBuds S True Wireless Noise Canceling Earbuds - Black - Front_Zoom\" src=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505725_sd.jpg;maxHeight=82;maxWidth=300;format=webp\" srcset=\"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505725_sd.jpg;maxHeight=164;maxWidth=600;format=webp 2x\"></img></a></figure>\n<p>$159.99Your price for this item is $159.99</p>\n<p>Price Drop</p>\n<p>Comp. Value: $199.99</p>\n<p>The comparable value price is $199.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 8,
+            "text": "$159.99\nYour price for this item is $159.99Price Drop\n\n\nComp. Value: $199.99\nThe comparable value price is $199.99",
+            "type": "post"
+          },
+          {
+            "date": "Tue, 02 Apr 2024 00:00:00 GMT",
+            "humanLanguage": "en",
+            "author": "WHRF400",
+            "diffbotUri": "post|3|2086895632",
+            "html": "<p>$139.99Your price for this item is $139.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 9,
+            "text": "$139.99\nYour price for this item is $139.99",
+            "type": "post"
+          },
+          {
+            "date": "Thu, 04 Apr 2024 00:00:00 GMT",
+            "humanLanguage": "en",
+            "author": "selected",
+            "diffbotUri": "post|3|-1544911584",
+            "html": "<p>$14.99Your price for this item is $14.99</p>",
+            "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+            "id": 10,
+            "text": "$14.99\nYour price for this item is $14.99",
+            "type": "post"
+          }
+        ],
+        "participants": 3
+      },
+      "availability": true,
+      "type": "product",
+      "title": "Sony Headphones",
+      "offerPriceDetails": {
+        "symbol": "$",
+        "amount": 19.99,
+        "text": "$19.99"
+      },
+      "humanLanguage": "en",
+      "pageUrl": "https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012/",
+      "text": "Headphones\nSony LinkBuds S true wireless noise-cancelling earbuds.\nEvery world. Always on. Automate your audio for whatever world you\u2019re in.\nPlaceholder for rendering shimmer\nHeadphones\nSony WH-1000XM5 wireless industry-leading, noise-cancelling headphones.\nYour world. Nothing else. Rewrite the rules for distraction-free listening.\nPlaceholder for rendering shimmer\nHeadphones\nLearn more about Sony headphones.\nWherever the day takes you, elevate it with premium sound. Discover Sony\u2019s over-ear headphones and truly wireless earbuds.\nPlaceholder for rendering shimmer",
+      "categories": [
+        {
+          "level": 5,
+          "isPrimary": true,
+          "confidence": 0.995,
+          "name": "Headphones",
+          "id": 543626
+        },
+        {
+          "level": 4,
+          "isPrimary": true,
+          "confidence": 0.995,
+          "name": "Headphones & Headsets",
+          "id": 505771
+        },
+        {
+          "level": 3,
+          "isPrimary": true,
+          "confidence": 0.995,
+          "name": "Audio Components",
+          "id": 2165
+        },
+        {
+          "level": 2,
+          "isPrimary": true,
+          "confidence": 0.995,
+          "name": "Audio",
+          "id": 223
+        },
+        {
+          "level": 1,
+          "isPrimary": true,
+          "confidence": 0.995,
+          "name": "Electronics",
+          "id": 222
+        }
+      ],
+      "sku": "8618364",
+      "category": "Electronics",
+      "brand": "Sony"
+    }
+  ]
+}

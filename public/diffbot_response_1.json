@@ -1,0 +1,82 @@
+{
+  "request": {
+    "pageUrl": "https://electronics.sony.com/c/all-headphones",
+    "api": "product",
+    "version": 3
+  },
+  "objects": [
+    {
+      "images": [
+        {
+          "xpath": "/html[1]/body[1]/noscript[3]/img[1]",
+          "naturalHeight": 0,
+          "diffbotUri": "image|3|739865500",
+          "url": "https://electronics.sony.com/akam/13/pixel_39875c97?a=dD03MGE4MDYzOTU0ZGE3OTQ4YWVjMGU0YTQxMWFhODE2NjM2MDQ1Yjc5JmpzPW9mZg==",
+          "naturalWidth": 0,
+          "primary": true
+        },
+        {
+          "xpath": "/html[1]/body[1]/app-root[1]/app-custom-storefront[1]/main[1]/app-product-lists-page[1]/div[1]/div[2]/app-custom-product-list[1]/div[1]/div[1]/div[4]/app-custom-product-scroll[1]/div[1]/ul[1]/li[1]/app-custom-product-item[1]/div[1]/a[1]/div[1]/app-custom-plp-cx-media[1]/img[1]",
+          "naturalHeight": 224,
+          "width": 200,
+          "diffbotUri": "image|3|866520308",
+          "url": "https://d1ncau8tqf99kp.cloudfront.net/converted/103364_original_local_256x224_v3_converted.webp",
+          "naturalWidth": 256,
+          "height": 182
+        }
+      ],
+      "offerPrice": "$399.99",
+      "diffbotUri": "product|3|946838485",
+      "availability": true,
+      "type": "product",
+      "title": "All Headphones",
+      "offerPriceDetails": {
+        "symbol": "$",
+        "amount": 399.99,
+        "text": "$399.99"
+      },
+      "humanLanguage": "en",
+      "pageUrl": "https://electronics.sony.com/c/all-headphones",
+      "text": "Browse our selection of Sony headphones from in-ear, over-ear, wired & wireless headsets with Bluetooth & noise canceling features.",
+      "categories": [
+        {
+          "level": 5,
+          "isPrimary": true,
+          "confidence": 0.968,
+          "name": "Headphones",
+          "id": 543626
+        },
+        {
+          "level": 4,
+          "isPrimary": true,
+          "confidence": 0.968,
+          "name": "Headphones & Headsets",
+          "id": 505771
+        },
+        {
+          "level": 3,
+          "isPrimary": true,
+          "confidence": 0.968,
+          "name": "Audio Components",
+          "id": 2165
+        },
+        {
+          "level": 2,
+          "isPrimary": true,
+          "confidence": 0.968,
+          "name": "Audio",
+          "id": 223
+        },
+        {
+          "level": 1,
+          "isPrimary": true,
+          "confidence": 0.968,
+          "name": "Electronics",
+          "id": 222
+        }
+      ],
+      "category": "Electronics",
+      "brand": "Sony"
+    }
+  ]
+}

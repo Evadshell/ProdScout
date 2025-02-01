@@ -1,0 +1,75 @@
+{
+  "request": {
+    "pageUrl": "https://electronics.sony.com/c/headband",
+    "api": "product",
+    "version": 3,
+    "resolvedPageUrl": "https://electronics.sony.com/audio/headphones/c/headband"
+  },
+  "objects": [
+    {
+      "images": [
+        {
+          "xpath": "/html[1]/body[1]/noscript[2]/img[1]",
+          "naturalHeight": 0,
+          "diffbotUri": "image|3|-1738135930",
+          "url": "https://electronics.sony.com/akam/13/pixel_251fd995?a=dD04OGNhYWQ4YjFhZTI4NzA5NGM3MDFkODc5ZDQ0MTJmZDcwYjc3ZjBjJmpzPW9mZg==",
+          "naturalWidth": 0,
+          "primary": true
+        }
+      ],
+      "offerPrice": "$399.99",
+      "diffbotUri": "product|3|1470234114",
+      "availability": true,
+      "type": "product",
+      "title": "WH-1000XM5 Wireless Industry Leading Noise Canceling Headphones | Black",
+      "offerPriceDetails": {
+        "symbol": "$",
+        "amount": 399.99,
+        "text": "$399.99"
+      },
+      "humanLanguage": "en",
+      "pageUrl": "https://electronics.sony.com/c/headband",
+      "text": "Discover a wide variety of over-the-ear headphones including wireless & wired headband styles. Noise canceling, Bluetooth, & more.",
+      "categories": [
+        {
+          "level": 5,
+          "isPrimary": true,
+          "confidence": 0.985,
+          "name": "Headphones",
+          "id": 543626
+        },
+        {
+          "level": 4,
+          "isPrimary": true,
+          "confidence": 0.985,
+          "name": "Headphones & Headsets",
+          "id": 505771
+        },
+        {
+          "level": 3,
+          "isPrimary": true,
+          "confidence": 0.985,
+          "name": "Audio Components",
+          "id": 2165
+        },
+        {
+          "level": 2,
+          "isPrimary": true,
+          "confidence": 0.985,
+          "name": "Audio",
+          "id": 223
+        },
+        {
+          "level": 1,
+          "isPrimary": true,
+          "confidence": 0.985,
+          "name": "Electronics",
+          "id": 222
+        }
+      ],
+      "category": "Electronics",
+      "brand": "Sony",
+      "resolvedPageUrl": "https://electronics.sony.com/audio/headphones/c/headband"
+    }
+  ]
+}
