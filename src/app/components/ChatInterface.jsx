@@ -14,7 +14,7 @@ export function ChatInterface({ onNewJson }) {
 
     setIsLoading(true);
     try {
-      const response = await fetch("http://localhost:8000/api/search", {
+      const response = await fetch("https://prodscoutbec.onrender.com/api/search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
